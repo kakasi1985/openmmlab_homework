@@ -16,3 +16,19 @@ my openmmlab ai learning homework.
 	需提交的测试集评估指标（不能低于baseline指标的50%）
 
     项目的算法库mmcls、mmdet、mmpose均为源码安装，为了省上传空间，删除了大部分源码，只保留作业的配置文件和数据集文件，以及项目开发中生成的文件，大多文件为省空间已删除原文件，换成原文件结构截图。RTMDet、RTMPose算法的训练集、测试集评估指标截图在目录“训练集与测试集评估指标截图”中，耳朵目标检测预测程序生成的图片与视频放在目录“耳朵目标检测预测图片与视频”中，耳朵穴位关键点检测程序生成的图片与视频放在目录“耳朵穴位关键点检测图片与视频”中。
+
+ ### 目录mmpretrain_homework_fruit30为训练营第5天MMPretrain课程课后作业。
+    题目：基于 ResNet50 的水果分类
+
+    背景：使用基于卷积的深度神经网络 ResNet50 对 30 种水果进行分类
+
+    任务
+
+    划分训练集和验证集
+    按照 MMPreTrain CustomDataset 格式组织训练集和验证集
+    使用 MMPreTrain 算法库，编写配置文件，正确加载预训练模型
+    在水果数据集上进行微调训练
+    使用 MMPreTrain 的 ImageClassificationInferencer 接口，对网络水果图像，或自己拍摄的水果图像，使用训练好的模型进行分类
+    需提交的验证集评估指标（不能低于 60%）
+
+    mmpretrain_fruit30.ipynb为主程序，mmpretrain/projects/fruits为算法配置文件，测试集评估指标、网上下载的水果图片预测结果截图在mmpretrain/workout目录中。
